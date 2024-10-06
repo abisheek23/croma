@@ -1,0 +1,32 @@
+#nav-bar ul{
+    gap: 50px;
+    margin-left: 100px;
+}
+#nav-bar div{
+    gap: 50px;
+    margin-left: 100px;
+}
+#nav-bar{
+    position: sticky;
+}
+#btn1{
+    width: 200px;
+    
+    border-radius: 10px;
+    height: 35px;
+    margin-top: 15px;
+   
+}
+#img2 img{
+    margin-top: 50px;
+    width: 100px;
+    height: 130px;
+
+}
+
+#img2{
+    overflow-y: hidden;
+}
+.contain {
+margin: 150px;
+}
