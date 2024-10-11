@@ -30,18 +30,3 @@
 .contain {
 margin: 150px;
 }
-.container4 {
-    margin-left: 100px;
-    margin-right: 100px;
-    width: 800px;
-    height: 200px;
-    display: flex;
-    border: 0px solid #000;
-    overflow-x: auto; /* Allows vertical scrolling when needed */
-    scroll-behavior: none;
-    -ms-overflow-style: none;
-
-  }
-  .container4::-webkit-scrollbar {
-    display: none;
-  }
