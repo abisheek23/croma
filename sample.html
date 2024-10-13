@@ -2,33 +2,44 @@
 <html>
 <head>
 <style>
-div.relative {
+.img21{
   position: relative;
-  width: 200px;
-  height: 100px;
-  border: 3px solid #73AD21;
-} 
-
-div.absolute {
-  position: absolute;
-  top: px;
-  right: 0px;
-  left: 1500px;
-  bottom: -350px;
-  width: 500px;
-  height: 300px;
-  border: 3px solid #73AD21;
 }
+.content{
+  position: absolute;
+  top: 200px;
+  left: 700px;
+  right: 100px;
+  color: aliceblue;
+  font-size: 30px;
+  animation: mymove 1s;
+  animation-fill-mode: forwards;
+}
+.content button{
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(22, 237, 151);
+  opacity: .8;
+  
+}
+@keyframes mymove {
+  from {left: 600px;}
+  to {right: 2px;}
+}
+
+
 </style>
 </head>
 <body>
 
-<h2>position: absolute;</h2>
 
-<p>An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed):</p>
 
-<div class="relative"><img src="./image/CEROSIL/caro1.webp" alt="">
-  <div class="absolute">This div element has position: absolute;</div>
+<div class="img21"><img src="./image/CEROSIL/cro2.webp" alt="" style="width: 100%;">
+  <div class="content"> <span> <h1>Google Pixel 9 ,9 Pro</h1></span>
+   <span> <h5>Unlock the full potential of your Pixel 9 </h5></span>
+   <span><button><b><h3>Read Now</h3></b></button></span>
+  </div>
 </div>
 
 </body>
